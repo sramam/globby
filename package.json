@@ -59,7 +59,7 @@
 		"git"
 	],
 	"dependencies": {
-		"dir-glob": "^3.0.1",
+		"dir-glob": "github:sramam/dir-glob",
 		"fast-glob": "^3.2.11",
 		"ignore": "^5.2.0",
 		"merge2": "^1.4.1",
