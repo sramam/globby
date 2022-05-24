@@ -1,5 +1,5 @@
-import {fileURLToPath} from 'node:url';
-import {Transform} from 'node:stream';
+import {fileURLToPath} from 'url';
+import {Transform} from 'stream';
 
 export const toPath = urlOrPath => urlOrPath instanceof URL ? fileURLToPath(urlOrPath) : urlOrPath;
 
