@@ -1,5 +1,5 @@
-import fs from 'node:fs';
-import nodePath from 'node:path';
+import fs from 'fs';
+import nodePath from 'path';
 import merge2 from 'merge2';
 import fastGlob from 'fast-glob';
 import dirGlob from 'dir-glob';
